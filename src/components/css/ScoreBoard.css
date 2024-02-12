@@ -1,0 +1,49 @@
+.scoreboard {
+  background-color: #3a3b3c;
+  color: #ffffff;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+  width: 25%;
+  max-width: 200px;
+}
+
+.scoreboard h2 {
+  margin: 0;
+}
+
+.score-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.NameInput,
+.HighScoreDisplay,
+.ScoreBoard {
+  flex: 1;
+}
+
+.score-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.name-wrapper,
+.highscore-wrapper {
+  flex: 1;
+  text-align: center;
+}
+
+.ScoreBoard {
+  flex: 0 1 auto;
+  text-align: center;
+}

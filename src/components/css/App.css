@@ -1,0 +1,24 @@
+.app {
+  background-color: #18191a;
+  background-image: url("pika_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #e4e6eb;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.pokemon-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px;
+  max-width: 680px;
+  margin: auto;
+}
+
+.Pokemon-Title {
+  color: #ffcc00;
+  text-align: center;
+  font-size: 5vh;
+}
